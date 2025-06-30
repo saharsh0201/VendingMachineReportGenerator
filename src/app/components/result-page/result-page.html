@@ -1,0 +1,78 @@
+<div class="content-wrap">
+  <div class="container mt-5">
+    <ng-container *ngIf="!loading && result; else loadingOrError">
+      <h2 class="mb-4">Total Summary</h2>
+
+      <div class="summary-container">
+        <div class="summary-box">
+          <p><strong>Total Successful vends:</strong> {{ result.totalTransactions }}</p>
+          <p><strong>Total Amount:</strong> {{ formatCurrency(result.totalUsedAmount) }}</p>
+          <p><strong>Total Reversed Transactions:</strong> {{ result.refundedTransactions }}</p>
+          <p><strong>Total Reversed Refunded:</strong> {{ formatCurrency(result.fullyRefundedAmount) }}</p>
+        </div>
+
+        <div class="summary-box">
+          <p><strong>Total Partially Reversed Transactions:</strong> {{ result.partiallyRefundedTransactions }}</p>
+          <p><strong>Total Partially Refunded:</strong> {{ formatCurrency(result.partiallyRefundedAmount) }}</p>
+          <p><strong>Total Amount Refunded:</strong> {{ formatCurrency(result.totalRefundedAmount) }}</p>
+
+          <div class="mt-3">
+            <a class="btn btn-primary" [href]="'/api/process/download/' + result.id">
+              <i class="bi bi-download"></i> Download Matched Data
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="mt-4">
+        <strong>Date Range:</strong>
+        {{ result.startDate | date: 'longDate' }} to {{ result.endDate | date: 'longDate' }}
+
+      </h4>
+
+      <h3 class="mt-5">Machine-wise Results</h3>
+      <div class="table-responsive"
+        *ngIf="result.machineWiseStats && objectKeys(result.machineWiseStats).length > 0; else noMachineStats">
+        <table class="table table-bordered custom-table">
+          <thead>
+            <tr>
+              <th>Machine ID</th>
+              <th>Successful Vends</th>
+              <th>Amount (Rs)</th>
+              <th>Reversed Transactions</th>
+              <th>Reversed Refunded (Rs)</th>
+              <th>Partially Reversed Transactions</th>
+              <th>Partially Refunded (Rs)</th>
+              <th>Total Refunded (Rs)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let id of objectKeys(result.machineWiseStats)">
+              <td>{{ id }}</td>
+              <td>{{ result.machineWiseStats![id].totalTransactions }}</td>
+              <td>{{ formatCurrency(result.machineWiseStats![id].totalUsedAmount) }}</td>
+              <td>{{ result.machineWiseStats![id].refundedTransactions }}</td>
+              <td>{{ formatCurrency(result.machineWiseStats![id].fullyRefundedAmount) }}</td>
+              <td>{{ result.machineWiseStats![id].partiallyRefundedTransactions }}</td>
+              <td>{{ formatCurrency(result.machineWiseStats![id].partiallyRefundedAmount) }}</td>
+              <td>{{ formatCurrency(result.machineWiseStats![id].totalRefundedAmount) }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <ng-template #noMachineStats>
+        <p class="text-muted">No machine-wise data available.</p>
+      </ng-template>
+
+      <div class="mt-3">
+        <a class="btn btn-primary" routerLink="/upload">Back to Upload</a>
+      </div>
+    </ng-container>
+
+    <ng-template #loadingOrError>
+      <div *ngIf="loading">Loading...</div>
+      <div *ngIf="!loading && error" class="text-danger">{{ error }}</div>
+    </ng-template>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="login-page-wrapper">
+  <h1>Generate Vending Machine Report</h1>
+  <div class="login-box">
+    <h2>Login</h2>
+    <form (ngSubmit)="handleLogin()" [class.disabled]="loading">
+      <label>
+        Username:
+        <input type="text" [(ngModel)]="username" name="username" required />
+      </label>
+      <label>
+        Password:
+        <input type="password" [(ngModel)]="password" name="password" required />
+      </label>
+      <button type="submit" [disabled]="loading">
+        Login
+        <span *ngIf="loading" class="spinner"></span>
+      </button>
+      <p class="error" *ngIf="error">{{ error }}</p>
+    </form>
+  </div>
+</div>

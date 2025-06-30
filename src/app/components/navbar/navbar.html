@@ -1,0 +1,12 @@
+<!-- navbar.html -->
+<header class="navbar">
+  <div class="nav-left">
+    <img src="images/logo.png" alt="Logo" class="logo" />
+  </div>
+  <nav class="nav-links">
+    <a routerLink="/upload" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Generate Report</a>
+    <a routerLink="/history" routerLinkActive="active">History</a>
+    <a href="https://admin.mobivend.in/" target="_blank">Mobivend</a>
+    <a class="logout-button" (click)="logout()">Logout</a>
+  </nav>
+</header>

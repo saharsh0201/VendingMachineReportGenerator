@@ -1,0 +1,56 @@
+<div class="history-container">
+  <h2>Saved Report History</h2>
+
+  <form class="search-form" (ngSubmit)="fetchData()">
+    <label>
+      Start Date:
+      <input type="date" [(ngModel)]="fromDate" name="fromDate" />
+    </label>
+    <label>
+      End Date:
+      <input type="date" [(ngModel)]="toDate" name="toDate" />
+    </label>
+    <button type="submit">Search</button>
+  </form>
+
+  <table class="history-table" *ngIf="results.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Start</th>
+        <th>End</th>
+        <th>Total Successful Vends</th>
+        <th>Total Used Amount</th>
+        <th>Reversed Txns</th>
+        <th>Fully Refunded Txns Amount</th>
+        <th>Partial Txns</th>
+        <th>Partial Refunded</th>
+        <th>Total Refunded Amount</th>
+        <th>Download</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let result of results; index as i">
+        <td>{{ i + 1 }}</td>
+        <td>{{ result.startDate | date: 'longDate' }}</td>
+        <td>{{ result.endDate | date: 'longDate' }}</td>
+        <td>{{ result.totalTransactions }}</td>
+        <td>{{ result.totalUsedAmount }}</td>
+        <td>{{ result.refundedTransactions }}</td>
+        <td>{{ result.fullyRefundedAmount }}</td>
+        <td>{{ result.partiallyRefundedTransactions }}</td>
+        <td>{{ result.partiallyRefundedAmount }}</td>
+        <td>{{ result.totalRefundedAmount }}</td>
+        <td>
+          <button class="download-btn" (click)="downloadCsv(result.id)">Download</button>
+        </td>
+        <td>
+          <button class="delete-btn" (click)="deleteRecord(result.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!loading && results.length === 0">No results found.</p>
+</div>

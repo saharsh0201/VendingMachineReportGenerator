@@ -1,0 +1,113 @@
+.upload-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.upload-section h2 {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+label.upload-label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.custom-file-label:hover {
+  background-color: #0056b3;
+}
+
+.file-name {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.submit-btn-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error-messages {
+  margin-top: 1rem;
+  color: red;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.error-messages p {
+  margin-bottom: 0.3rem;
+}
+
+.spinner {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+  border: 2px solid #fff;
+  border-top: 2px solid #333;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+form.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}

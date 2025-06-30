@@ -1,0 +1,38 @@
+id,wallettxnid,POS_ID,total_amount,used_amount,refunded_amount,created_at,updated_at,provider,status,username_or_phone,product_name
+13887825,'DI_MB_EMP_PIN_980cb5a2-21af-4bf5-b1c9-365bb26651a3','20020',10,10,0,"April 30, 2025 16:27","April 30, 2025 16:27",employee_pin,Vend Success,vijayalakshmi_peddinti_101,
+13887407,'DI_MB_EMP_PIN_77de3343-4617-4a63-90eb-23cdfb41f095','20020',45,45,0,"April 30, 2025 16:03","April 30, 2025 16:04",employee_pin,Vend Success,varun_thalluri_101,
+13887398,'DI_MB_EMP_PIN_8c2686c2-5a94-47e0-9360-966b204b913c','20020',10,10,0,"April 30, 2025 16:03","April 30, 2025 16:04",employee_pin,Vend Success,varun_thalluri_101,
+13887344,'DI_MB_EMP_PIN_bdee104b-cb8a-4098-beac-c22f6eef611d','20020',10,10,0,"April 30, 2025 16:00","April 30, 2025 16:00",employee_pin,Vend Success,wasimm@uworld.in,
+13887338,'DI_MB_EMP_PIN_852000c5-0587-4f37-b2c9-9bc959a314a2','20020',10,10,0,"April 30, 2025 16:00","April 30, 2025 16:00",employee_pin,Vend Success,wasimm@uworld.in,
+13886923,'DI_MB_EMP_PIN_13187597-e016-4dc7-9e13-396340a2ceae','20020',30,30,0,"April 30, 2025 15:32","April 30, 2025 15:32",employee_pin,Vend Success,skukkaragonda@uworld.in,
+13886912,'DI_MB_EMP_PIN_ac5b27e8-cb80-4047-a437-ce7cbc820f1b','20020',30,30,0,"April 30, 2025 15:31","April 30, 2025 15:32",employee_pin,Vend Success,skukkaragonda@uworld.in,
+13886036,'DI_MB_EMP_PIN_a69734ec-6c16-4a1e-872a-a03ca0573054','20020',10,0,10,"April 30, 2025 14:30","April 30, 2025 14:41",employee_pin,Reversed,"",-
+13885362,'DI_MB_EMP_PIN_2403039e-d1c4-48ba-8825-a2c5bfa5812a','20020',45,0,45,"April 30, 2025 13:51","April 30, 2025 14:02",employee_pin,Reversed,"",-
+13885346,'DI_MB_EMP_PIN_8034a6c9-8ea3-4e51-956e-20eb1b363306','20020',10,10,0,"April 30, 2025 13:50","April 30, 2025 13:50",employee_pin,Vend Success,pushpa_bai_vadithe_101,
+13883972,'DI_MB_EMP_PIN_194fbe51-5a59-40a6-98ba-6849b324d2e4','20020',10,10,0,"April 30, 2025 12:21","April 30, 2025 12:22",employee_pin,Vend Success,faiz_jiwani_101,
+13883965,'DI_MB_EMP_PIN_65bb8112-8400-475d-b6f0-66b74e9f358d','20020',20,20,0,"April 30, 2025 12:21","April 30, 2025 12:22",employee_pin,Vend Success,faiz_jiwani_101,
+13883951,'DI_MB_EMP_PIN_416f4771-73df-44ff-b074-668c8cf8d497','20020',30,30,0,"April 30, 2025 12:20","April 30, 2025 12:20",employee_pin,Vend Success,pawan_kumar_alapati_101,
+13883748,'DI_MB_EMP_PIN_f5089dea-76ab-4cd4-99ac-126a3eed2b4d','20020',20,20,0,"April 30, 2025 12:05","April 30, 2025 12:05",employee_pin,Vend Success,pradeep_simha_madugula_101,
+13883737,'DI_MB_EMP_PIN_801d03cc-f327-4332-b91e-afad97550e56','20020',30,30,0,"April 30, 2025 12:05","April 30, 2025 12:05",employee_pin,Vend Success,pradeep_simha_madugula_101,
+13883732,'DI_MB_EMP_PIN_87ccb3df-8828-4f48-b97a-970ef22b85be','20020',30,30,0,"April 30, 2025 12:04","April 30, 2025 12:05",employee_pin,Vend Success,pradeep_simha_madugula_101,
+13883708,'DI_MB_EMP_PIN_108b564d-caa3-4521-99fa-965d9fc43b24','20020',10,10,0,"April 30, 2025 12:03","April 30, 2025 12:04",employee_pin,Vend Success,pradeep_simha_madugula_101,
+13883702,'DI_MB_EMP_PIN_782af5ca-97dd-4c2b-8d1c-d373c7c62936','20020',10,10,0,"April 30, 2025 12:03","April 30, 2025 12:03",employee_pin,Vend Success,pradeep_simha_madugula_101,
+13883620,'DI_MB_EMP_PIN_c848d767-21a2-497c-ab17-e0a84cffb039','20020',30,30,0,"April 30, 2025 11:59","April 30, 2025 12:00",employee_pin,Vend Success,anmol_singh_sardar_101,
+13883487,'DI_MB_EMP_PIN_c120489e-0d12-4d3e-a318-87e3dfa88e28','20020',20,20,0,"April 30, 2025 11:51","April 30, 2025 11:52",employee_pin,Vend Success,naveen_korrapati_101,
+13883483,'DI_MB_EMP_PIN_6b59d450-d0e0-4a4d-bdab-663c357424e8','20020',10,10,0,"April 30, 2025 11:51","April 30, 2025 11:51",employee_pin,Vend Success,ashok_karri_101,
+13883450,'DI_MB_EMP_PIN_4a0d45a6-5685-4980-a715-6c0e0c60de24','20020',30,0,30,"April 30, 2025 11:50","April 30, 2025 12:00",employee_pin,Reversed,"",-
+13883410,'DI_MB_EMP_PIN_e4256730-12d3-4b90-b81b-fbb1a819a976','20020',10,0,10,"April 30, 2025 11:47","April 30, 2025 11:58",employee_pin,Reversed,"",-
+13883317,'DI_MB_EMP_PIN_b2c31df2-5b2e-4b04-be1d-7353f1d6507f','20020',10,10,0,"April 30, 2025 11:41","April 30, 2025 11:42",employee_pin,Vend Success,leela_prasad_mullapudi_101,
+13883306,'DI_MB_EMP_PIN_4f64b60f-91dd-413a-bab3-4fefcf6b1133','20020',10,10,0,"April 30, 2025 11:41","April 30, 2025 11:41",employee_pin,Vend Success,leela_prasad_mullapudi_101,
+13883276,'DI_MB_EMP_PIN_523c670e-b70f-456c-9ec8-2b5cdefd1aa9','20020',20,20,0,"April 30, 2025 11:39","April 30, 2025 11:39",employee_pin,Vend Success,ashok_kumar_devunuri_101,
+13883211,'DI_MB_EMP_PIN_ba224e0d-cfab-458b-9d94-6c654817bdd6','20020',10,10,0,"April 30, 2025 11:35","April 30, 2025 11:36",employee_pin,Vend Success,apokuri@uworld.in,
+13883187,'DI_MB_EMP_PIN_8dbecda9-ce2f-4d20-9454-55b17f83d2d6','20020',10,10,0,"April 30, 2025 11:33","April 30, 2025 11:34",employee_pin,Vend Success,chitharanjan_gavini_101,
+13882996,'DI_MB_EMP_PIN_45d24147-7604-4db8-bab2-1630ce1b1cc9','20020',10,10,0,"April 30, 2025 11:19","April 30, 2025 11:20",employee_pin,Vend Success,maneesha_lakshmi_sure_101,
+13882863,'DI_MB_EMP_PIN_eb2a8ea5-9933-499b-9247-1bbba5c76bbb','20020',10,10,0,"April 30, 2025 11:09","April 30, 2025 11:10",employee_pin,Vend Success,abaig@uworld.in,
+13882853,'DI_MB_EMP_PIN_22fb7164-04e6-4cb5-ab50-89071d97f000','20020',10,0,10,"April 30, 2025 11:08","April 30, 2025 11:19",employee_pin,Reversed,"",-
+13882432,'DI_MB_EMP_PIN_57501576-164c-498b-843a-fad3b6ceb0ed','20020',10,10,0,"April 30, 2025 10:35","April 30, 2025 10:36",employee_pin,Vend Success,smali@uworld.in,
+13882411,'DI_MB_EMP_PIN_38f5edb7-9a13-487f-b3a7-e65af2826b7e','20020',10,0,10,"April 30, 2025 10:34","April 30, 2025 10:45",employee_pin,Reversed,"",-
+13882405,'DI_MB_EMP_PIN_3519203d-d5d3-4319-8d9c-a9428e649ce6','20020',10,10,0,"April 30, 2025 10:33","April 30, 2025 10:34",employee_pin,Vend Success,vpotabattula@uworld.in,
+13882404,'DI_MB_EMP_PIN_1c8e4f9d-c24b-4cd6-91c6-9f9957a253e6','20020',10,10,0,"April 30, 2025 10:33","April 30, 2025 10:34",employee_pin,Vend Success,vpotabattula@uworld.in,
+13882403,'DI_MB_EMP_PIN_61cf4158-72d3-4315-af11-e264ba5b1e28','20020',10,0,10,"April 30, 2025 10:33","April 30, 2025 10:44",employee_pin,Reversed,"",-
+13882397,'DI_MB_EMP_PIN_c58e684f-528c-4667-82f0-f6d5b8a2fe48','20020',10,0,10,"April 30, 2025 10:32","April 30, 2025 10:43",employee_pin,Reversed,"",-
